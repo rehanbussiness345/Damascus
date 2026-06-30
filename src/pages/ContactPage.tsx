@@ -200,24 +200,6 @@ export default function ContactPage() {
       </section>
 
       {/* Map Section */}
-      <section className="section-padding bg-cream">
-        <div className="container-main text-center">
-          <p className="text-gold text-xs tracking-[0.3em] uppercase font-body mb-4">Our Location</p>
-          <h2 className="font-display text-3xl md:text-4xl font-bold text-charcoal mb-6">
-            Based in <span className="italic font-elegant font-normal text-gold">Vienna, Austria</span>
-          </h2>
-          <p className="text-warm-gray text-base font-body max-w-lg mx-auto">
-            Our online boutique ships authentic Arabic fragrances across Austria and the European Union with free shipping on orders over €50.
-          </p>
-          <div className="mt-10 bg-white border border-gold/10 aspect-video flex items-center justify-center">
-            <div className="text-center">
-              <MapPin size={48} className="text-gold mx-auto mb-4" />
-              <p className="font-display text-xl text-charcoal">Vienna, Austria</p>
-              <p className="text-xs text-warm-gray font-body tracking-wider mt-1">EU-WIDE DELIVERY AVAILABLE</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+   
   );
 }
